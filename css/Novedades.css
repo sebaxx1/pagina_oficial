@@ -1,0 +1,233 @@
+body{
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: 'Nunito', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.titulo{
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(106, 94, 184);
+    margin: 0;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+} 
+
+.subtitulos{
+    text-transform: uppercase;
+    text-align: center;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    background-color: #625f84;
+    margin: 0;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.8);
+}
+
+.container{
+    display: grid;
+}
+
+.texto{
+    width: 500px;
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-cam{
+    width: 300;
+    height: 200px;
+}
+
+img{
+    width: 500px;
+    height: 200px;
+}
+
+.retroceso{
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    text-decoration: none;
+    color: #fff;
+    transition: all ease 200ms;
+}
+
+.retroceso:hover{
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    text-decoration: none;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.union{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 20px 20px;
+}
+
+/* SUB MENU */
+
+
+.container__menu{
+    width: 100%;
+    height: 70px;
+    background: rgb(106, 94, 184);
+    padding: 0px 20px 0;
+}
+
+.menu{
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+}
+
+nav{
+    height: 100%;
+}
+
+nav > ul{
+    height: 100%;
+    display: flex;
+}
+
+nav ul li{
+    height: 100%;
+    list-style: none;
+    position: relative;
+}
+
+nav > ul > li:first-child > a{
+    background-image: url(imagenes/home.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 20px 40px;
+}
+
+nav > ul > li:first-child:hover > a{
+    background-image: url(imagenes/home.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+nav > ul > li > a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: all 300ms ease;
+    color: #fff;
+}
+
+nav > ul > li > a:hover{
+    transform: scale(1.1);
+    background:#625f84 ;
+    box-shadow: 0px 0px 10px 0px rgba(225, 225,225, 0.3);
+}
+
+#selected{
+    /* transform: scale(1.1);
+    background-color:#625f84 ;
+    box-shadow: 0px 0px 10px 0px rgb(225, 225, 225, 0.3); */
+}
+
+
+
+nav ul li ul{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    position: absolute;
+    top: 90px;
+    left: -5px;
+    padding: 14px 0px;
+    visibility: hidden;
+    opacity: 0;
+    border: solid 1px rgb(85, 85, 85);
+    box-shadow: 0px 0px 10px 0px rgba(225, 225, 225, 0.5);
+    z-index: 10;
+    transition: all 300ms ease;
+}
+
+nav ul li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    top: 70px;
+}
+
+nav ul li ul::before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 12px solid #fff;
+    position: absolute;
+    top: -12px;
+    left: 20px;
+}
+
+nav ul li ul li a{
+    display: block;
+    color: black;
+    padding: 6px;
+    padding-left:14px ;
+    margin-top: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: all 300ms ease;
+}
+
+nav ul li ul li a:hover{
+    background: #c5c5c5;
+    transform: scale(1.1);
+    padding-left: 30px;
+    font-size: 14px;
+    box-shadow: 0px 0px 10px 0px rgba(225, 225, 225, 0.5);
+}
+
+.icon__menu{
+    font-size: 26px;
+    color: #fff;
+    cursor: pointer;
+    width: 26px;
+    height: 100%;
+    display: none;
+    align-items: center;
+}
+
+#check__menu{
+    display: none;
+}
+
+#label__check{
+    width: 26px;
+    height: 100%;
+    display: none;
+}

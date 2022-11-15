@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>calendario</title>
+        <link rel="icon" href="imagenes/logo-principal.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <script src="https://kit.fontawesome.com/5b4b7af22f.js" crossorigin="anonymous"></script>
+
+
+        <link rel="stylesheet" href="css/calendario.css">
+
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+        <script src="calendario.js"></script>
+    </head>
+<body>
+    <div class="titulo">
+		<h1>calendario</h1>
+	</div>
+	<header>
+		<div class="container__menu">
+
+			<div class="menu">
+				<input type="checkbox" id="check__menu">
+				<label id="label__check" for="check__menu">
+					<i class="fa-solid fa-bars icon__menu"></i>
+				</label>
+				<nav>
+					<ul>
+						<li><a href="file:///C:/Users/Sebastian%20Zaracho/OneDrive/Documentos/pagina%20oficial/index.html" id="selected"></a></li>
+						<li><a href="file:///C:/Users/Sebastian%20Zaracho/OneDrive/Documentos/pagina%20oficial/INSTITUCIONAL.html">institucional</a>
+							<ul>
+								<li><a href="file:///C:/Users/Sebastian%20Zaracho/OneDrive/Documentos/pagina%20oficial/INSTITUCIONAL.html #nuestra-historia">nuestra historia</a></li>
+								<li><a href="file:///C:/Users/Sebastian%20Zaracho/OneDrive/Documentos/pagina%20oficial/INSTITUCIONAL.html #autoridades">autoridades</a></li>
+                                <li><a href="file:///C:/Users/Sebastian%20Zaracho/OneDrive/Documentos/pagina%20oficial/INSTITUCIONAL.html#profes">profesores</a></li>
+								<li><a href="file:///C:/Users/Sebastian%20Zaracho/OneDrive/Documentos/pagina%20oficial/INSTITUCIONAL.html #iglesia">iglesia</a></li>
+								<li><a href="file:///C:/Users/Sebastian%20Zaracho/OneDrive/Documentos/pagina%20oficial/INSTITUCIONAL.html #organigrama">organigrama</a></li>
+								<li><a href="file:///C:/Users/Sebastian%20Zaracho/OneDrive/Documentos/pagina%20oficial/INSTITUCIONAL.html #nuesros-objetivos">nuestros objetivos</a></li>
+							</ul>
+						</li>
+
+
+						<li><a href="file:///C:/Users/Sebastian%20Zaracho/OneDrive/Documentos/pagina%20oficial/actividades.html">actividades</a>
+							<ul>
+								<li><a href="#">Esto es un ejemplo</a></li>
+								<li><a href="#">Esto es un ejemplo</a></li>
+								<li><a href="#">Esto es un ejemplo</a></li>
+								<li><a href="#">Esto es un ejemplo</a></li>
+								<li><a href="#">Esto es un ejemplo</a></li>
+							</ul>
+						</li>
+
+
+						<li><a href="#" class="calendaria">calendario</a></li>
+
+
+						<li><a href="file:///C:/Users/Sebastian%20Zaracho/OneDrive/Documentos/pagina%20oficial/academico.html">academico</a>
+							<ul>
+								<li><a href="#">Esto es un ejemplo</a></li>
+								<li><a href="#">Esto es un ejemplo</a></li>
+								<li><a href="#">Esto es un ejemplo</a></li>
+								<li><a href="#">Esto es un ejemplo</a></li>
+								<li><a href="#">Esto es un ejemplo</a></li>
+							</ul>
+						</li>
+
+
+						<li><a href="file:///C:/Users/Sebastian%20Zaracho/OneDrive/Documentos/pagina%20oficial/Tienda.html">tienda</a></li>
+
+
+						<li><a href="file:///C:/Users/Sebastian%20Zaracho/OneDrive/Documentos/pagina%20oficial/Novedades.html">novedades</a></li>
+					</ul>
+				</nav>
+			</div>
+
+		</div>
+	</header>
+    <div class="wrap">
+        
+        <div class="calendario" id="enero">
+            <div class="meses">
+                <a href="#" class="diciembre"><img src="c:\Users\Sebastian Zaracho\OneDrive\Documentos\sitio wed de CELA\desarrollo de pagina\imagenes\flecha izquierda.png" class="flechas"></a>
+                <h1>enero 2022</h1>
+                <a href="#" class="febrero"><img src="c:\Users\Sebastian Zaracho\OneDrive\Documentos\sitio wed de CELA\desarrollo de pagina\imagenes\flecha derecha.png" class="flechas"></a>
+            </div>
+            <ol class="tabs">
+                <li class="dias_semana">domingo</li>
+                <li class="dias_semana">lunes</li>
+                <li class="dias_semana">martes</li>
+                <li class="dias_semana">miercoles</li>
+                <li class="dias_semana">jueves</li>
+                <li class="dias_semana">viernes</li>
+                <li class="dias_semana">sabado</li>
+
+                <li class="inicio_mes"><a href="#tab1"><span class="tab-text">1</span></a></li>
+                <li><a href="#tab2"><span class="tab-text">2</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">3</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">4</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">5</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">6</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">7</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">8</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">9</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">10</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">11</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">12</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">13</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">14</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">15</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">16</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">17</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">18</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">19</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">20</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">21</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">22</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">23</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">24</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">25</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">26</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">27</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">28</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">29</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">30</span></a></li>
+                <li><a href="#tab1"><span class="tab-text">31</span></a></li>
+            </ol>
+        </div>
+        <div class="calendario" id="febrero">
+            <div class="meses">
+                <a href="#enero" class="enero"><img src="c:\Users\Sebastian Zaracho\OneDrive\Documentos\sitio wed de CELA\desarrollo de pagina\imagenes\flecha izquierda.png" class="flechas"></a>
+                <h1>febrero 2022</h1>
+                <a href="#" class="marzo"><img src="c:\Users\Sebastian Zaracho\OneDrive\Documentos\sitio wed de CELA\desarrollo de pagina\imagenes\flecha derecha.png" class="flechas"></a>
+            </div>
+            <ol class="tabs">
+                <li class="dias_semana">domingo</li>
+                <li class="dias_semana">lunes</li>
+                <li class="dias_semana">martes</li>
+                <li class="dias_semana">miercoles</li>
+                <li class="dias_semana">jueves</li>
+                <li class="dias_semana">viernes</li>
+                <li class="dias_semana">sabado</li>
+                
+                <li class="inicio_mes2"><a href="tab1"><span class="tab-text">1</span></a></li>
+                <li><a href="tab1"><span class="tab-text">2</span></a></li>
+                <li><a href="tab1"><span class="tab-text">3</span></a></li>
+                <li><a href="tab1"><span class="tab-text">4</span></a></li>
+                <li><a href="tab1"><span class="tab-text">5</span></a></li>
+                <li><a href="tab1"><span class="tab-text">6</span></a></li>
+                <li><a href="tab1"><span class="tab-text">7</span></a></li>
+                <li><a href="tab1"><span class="tab-text">8</span></a></li>
+                <li><a href="tab1"><span class="tab-text">9</span></a></li>
+                <li><a href="tab1"><span class="tab-text">10</span></a></li>
+                <li><a href="tab1"><span class="tab-text">11</span></a></li>
+                <li><a href="tab1"><span class="tab-text">12</span></a></li>
+                <li><a href="tab1"><span class="tab-text">13</span></a></li>
+                <li><a href="tab1"><span class="tab-text">14</span></a></li>
+                <li><a href="tab1"><span class="tab-text">15</span></a></li>
+                <li><a href="tab1"><span class="tab-text">16</span></a></li>
+                <li><a href="tab1"><span class="tab-text">17</span></a></li>
+                <li><a href="tab1"><span class="tab-text">18</span></a></li>
+                <li><a href="tab1"><span class="tab-text">19</span></a></li>
+                <li><a href="tab1"><span class="tab-text">20</span></a></li>
+                <li><a href="tab1"><span class="tab-text">21</span></a></li>
+                <li><a href="tab1"><span class="tab-text">22</span></a></li>
+                <li><a href="tab1"><span class="tab-text">23</span></a></li>
+                <li><a href="tab1"><span class="tab-text">24</span></a></li>
+                <li><a href="tab1"><span class="tab-text">25</span></a></li>
+                <li><a href="tab1"><span class="tab-text">26</span></a></li>
+                <li><a href="tab1"><span class="tab-text">27</span></a></li>
+                <li><a href="tab1"><span class="tab-text">28</span></a></li>
+            </ol>
+        </div>
+        <div class="calendario" id="marzo">
+            <div class="meses">
+                <a href="#" class="febrero"><img src="c:\Users\Sebastian Zaracho\OneDrive\Documentos\sitio wed de CELA\desarrollo de pagina\imagenes\flecha izquierda.png" class="flechas"></a>
+                <h1>marzo 2022</h1>
+                <a href="#" class="abril"><img src="c:\Users\Sebastian Zaracho\OneDrive\Documentos\sitio wed de CELA\desarrollo de pagina\imagenes\flecha derecha.png" class="flechas"></a>
+            </div>
+            <ol class="tabs">
+                <li class="dias_semana">domingo</li>
+                <li class="dias_semana">lunes</li>
+                <li class="dias_semana">martes</li>
+                <li class="dias_semana">miercoles</li>
+                <li class="dias_semana">jueves</li>
+                <li class="dias_semana">viernes</li>
+                <li class="dias_semana">sabado</li>
+
+                <li class="inicio_mes2"><a href="tab1"><span class="tab-text">1</span></a></li>
+                <li><a href="tab1"><span class="tab-text">2</span></a></li>
+                <li><a href="tab1"><span class="tab-text">3</span></a></li>
+                <li><a href="tab1"><span class="tab-text">4</span></a></li>
+                <li><a href="tab1"><span class="tab-text">5</span></a></li>
+                <li><a href="tab1"><span class="tab-text">6</span></a></li>
+                <li><a href="tab1"><span class="tab-text">7</span></a></li>
+                <li><a href="tab1"><span class="tab-text">8</span></a></li>
+                <li><a href="tab1"><span class="tab-text">9</span></a></li>
+                <li><a href="tab1"><span class="tab-text">10</span></a></li>
+                <li><a href="tab1"><span class="tab-text">11</span></a></li>
+                <li><a href="tab1"><span class="tab-text">12</span></a></li>
+                <li><a href="tab1"><span class="tab-text">13</span></a></li>
+                <li><a href="tab1"><span class="tab-text">14</span></a></li>
+                <li><a href="tab1"><span class="tab-text">15</span></a></li>
+                <li><a href="tab1"><span class="tab-text">16</span></a></li>
+                <li><a href="tab1"><span class="tab-text">17</span></a></li>
+                <li><a href="tab1"><span class="tab-text">18</span></a></li>
+                <li><a href="tab1"><span class="tab-text">19</span></a></li>
+                <li><a href="tab1"><span class="tab-text">20</span></a></li>
+                <li><a href="tab1"><span class="tab-text">21</span></a></li>
+                <li><a href="tab1"><span class="tab-text">22</span></a></li>
+                <li><a href="tab1"><span class="tab-text">23</span></a></li>
+                <li><a href="tab1"><span class="tab-text">24</span></a></li>
+                <li><a href="tab1"><span class="tab-text">25</span></a></li>
+                <li><a href="tab1"><span class="tab-text">26</span></a></li>
+                <li><a href="tab1"><span class="tab-text">27</span></a></li>
+                <li><a href="tab1"><span class="tab-text">28</span></a></li>
+                <li><a href="tab1"><span class="tab-text">29</span></a></li>
+                <li><a href="tab1"><span class="tab-text">30</span></a></li>
+                <li><a href="tab1"><span class="tab-text">31</span></a></li>
+            </ol>
+        </div>
+        <div class="calendario" id="abril">
+            <div class="meses">
+                <a href="#" class="marzo"><img src="c:\Users\Sebastian Zaracho\OneDrive\Documentos\sitio wed de CELA\desarrollo de pagina\imagenes\flecha izquierda.png" class="flechas"></a>
+                <h1>abril 2022</h1>
+                <a href="#" class="mayo"><img src="c:\Users\Sebastian Zaracho\OneDrive\Documentos\sitio wed de CELA\desarrollo de pagina\imagenes\flecha derecha.png" class="flechas"></a>
+            </div>
+            <ol class="tabs">
+                <li class="dias_semana">domingo</li>
+                <li class="dias_semana">lunes</li>
+                <li class="dias_semana">martes</li>
+                <li class="dias_semana">miercoles</li>
+                <li class="dias_semana">jueves</li>
+                <li class="dias_semana">viernes</li>
+                <li class="dias_semana">sabado</li>
+               <li class="inicio_mes3"><a href="tab1"><span class="tab-text">1</span></a></li>
+               <li><a href="tab1"><span class="tab-text">2</span></a></li>
+               <li><a href="tab1"><span class="tab-text">3</span></a></li>
+               <li><a href="tab1"><span class="tab-text">4</span></a></li>
+               <li><a href="tab1"><span class="tab-text">5</span></a></li>
+               <li><a href="tab1"><span class="tab-text">6</span></a></li>
+               <li><a href="tab1"><span class="tab-text">7</span></a></li>
+               <li><a href="tab1"><span class="tab-text">8</span></a></li>
+               <li><a href="tab1"><span class="tab-text">9</span></a></li>
+               <li><a href="tab1"><span class="tab-text">10</span></a></li>
+               <li><a href="tab1"><span class="tab-text">11</span></a></li>
+               <li><a href="tab1"><span class="tab-text">12</span></a></li>
+               <li><a href="tab1"><span class="tab-text">13</span></a></li>
+               <li><a href="tab1"><span class="tab-text">14</span></a></li>
+               <li><a href="tab1"><span class="tab-text">15</span></a></li>
+               <li><a href="tab1"><span class="tab-text">16</span></a></li>
+               <li><a href="tab1"><span class="tab-text">17</span></a></li>
+               <li><a href="tab1"><span class="tab-text">18</span></a></li>
+               <li><a href="tab1"><span class="tab-text">19</span></a></li>
+               <li><a href="tab1"><span class="tab-text">20</span></a></li>
+               <li><a href="tab1"><span class="tab-text">21</span></a></li>
+               <li><a href="tab1"><span class="tab-text">22</span></a></li>
+               <li><a href="tab1"><span class="tab-text">23</span></a></li>
+               <li><a href="tab1"><span class="tab-text">24</span></a></li>
+               <li><a href="tab1"><span class="tab-text">25</span></a></li>
+               <li><a href="tab1"><span class="tab-text">26</span></a></li>
+               <li><a href="tab1"><span class="tab-text">27</span></a></li>
+               <li><a href="tab1"><span class="tab-text">28</span></a></li>
+               <li><a href="tab1"><span class="tab-text">29</span></a></li>
+               <li><a href="tab1"><span class="tab-text">30</span></a></li>
+            </ol>
+        </div>
+        <div class="calendario" id="mayo">
+            <div class="meses">
+                <a href="#" class="abril"><img src="c:\Users\Sebastian Zaracho\OneDrive\Documentos\sitio wed de CELA\desarrollo de pagina\imagenes\flecha izquierda.png" class="flechas"></a>
+                <h1>mayo 2022</h1>
+                <a href="#" class="junio"><img src="c:\Users\Sebastian Zaracho\OneDrive\Documentos\sitio wed de CELA\desarrollo de pagina\imagenes\flecha derecha.png" class="flechas"></a>
+            </div>
+            <ol class="tabs">
+                <li class="dias_semana">domingo</li>
+                <li class="dias_semana">lunes</li>
+                <li class="dias_semana">martes</li>
+                <li class="dias_semana">miercoles</li>
+                <li class="dias_semana">jueves</li>
+                <li class="dias_semana">viernes</li>
+                <li class="dias_semana">sabado</li>
+                
+                <li class="inicio_mes4"><a href="tab1"><span class="tab-text">1</span></a></li>
+                <li><a href="tab1"><span class="tab-text">2</span></a></li>
+                <li><a href="tab1"><span class="tab-text">3</span></a></li>
+                <li><a href="tab1"><span class="tab-text">4</span></a></li>
+                <li><a href="tab1"><span class="tab-text">5</span></a></li>
+                <li><a href="tab1"><span class="tab-text">6</span></a></li>
+                <li><a href="tab1"><span class="tab-text">7</span></a></li>
+                <li><a href="tab1"><span class="tab-text">8</span></a></li>
+                <li><a href="tab1"><span class="tab-text">9</span></a></li>
+                <li><a href="tab1"><span class="tab-text">10</span></a></li>
+                <li><a href="tab1"><span class="tab-text">11</span></a></li>
+                <li><a href="tab1"><span class="tab-text">12</span></a></li>
+                <li><a href="tab1"><span class="tab-text">13</span></a></li>
+                <li><a href="tab1"><span class="tab-text">14</span></a></li>
+                <li><a href="tab1"><span class="tab-text">15</span></a></li>
+                <li><a href="tab1"><span class="tab-text">16</span></a></li>
+                <li><a href="tab1"><span class="tab-text">17</span></a></li>
+                <li><a href="tab1"><span class="tab-text">18</span></a></li>
+                <li><a href="tab1"><span class="tab-text">19</span></a></li>
+                <li><a href="tab1"><span class="tab-text">20</span></a></li>
+                <li><a href="tab1"><span class="tab-text">21</span></a></li>
+                <li><a href="tab1"><span class="tab-text">22</span></a></li>
+                <li><a href="tab1"><span class="tab-text">23</span></a></li>
+                <li><a href="tab1"><span class="tab-text">24</span></a></li>
+                <li><a href="tab1"><span class="tab-text">25</span></a></li>
+                <li><a href="tab1"><span class="tab-text">26</span></a></li>
+                <li><a href="tab1"><span class="tab-text">27</span></a></li>
+                <li><a href="tab1"><span class="tab-text">28</span></a></li>
+                <li><a href="tab1"><span class="tab-text">29</span></a></li>
+                <li><a href="tab1"><span class="tab-text">30</span></a></li>
+                <li><a href="tab1"><span class="tab-text">31</span></a></li>
+            </ol>
+        </div>
+        <div class="calendario" id="junio">
+            <div class="meses">
+                <a href="#" class="mayo"><img src="c:\Users\Sebastian Zaracho\OneDrive\Documentos\sitio wed de CELA\desarrollo de pagina\imagenes\flecha izquierda.png" class="flechas"></a>
+                <h1>junio 2022</h1>
+                <a href="#" class="julio"><img src="c:\Users\Sebastian Zaracho\OneDrive\Documentos\sitio wed de CELA\desarrollo de pagina\imagenes\flecha derecha.png" class="flechas"></a>
+            </div>
+            <ol class="tabs">
+                <li class="dias_semana">domingo</li>
+                <li class="dias_semana">lunes</li>
+                <li class="dias_semana">martes</li>
+                <li class="dias_semana">miercoles</li>
+                <li class="dias_semana">jueves</li>
+                <li class="dias_semana">viernes</li>
+                <li class="dias_semana">sabado</li>
+
+                <li class="inicio_mes5"><a href="tab1"><span class="tab-text">1</span></a></li>
+                <li><a href="tab2"><span class="tab-text">2</span></a></li>
+                <li><a href="tab1"><span class="tab-text">3</span></a></li>
+                <li><a href="tab1"><span class="tab-text">4</span></a></li>
+                <li><a href="tab1"><span class="tab-text">5</span></a></li>
+                <li><a href="tab1"><span class="tab-text">6</span></a></li>
+                <li><a href="tab1"><span class="tab-text">7</span></a></li>
+                <li><a href="tab1"><span class="tab-text">8</span></a></li>
+                <li><a href="tab1"><span class="tab-text">9</span></a></li>
+                <li><a href="tab1"><span class="tab-text">10</span></a></li>
+                <li><a href="tab1"><span class="tab-text">11</span></a></li>
+                <li><a href="tab1"><span class="tab-text">12</span></a></li>
+                <li><a href="tab1"><span class="tab-text">13</span></a></li>
+                <li><a href="tab1"><span class="tab-text">14</span></a></li>
+                <li><a href="tab1"><span class="tab-text">15</span></a></li>
+                <li><a href="tab1"><span class="tab-text">16</span></a></li>
+                <li><a href="tab1"><span class="tab-text">17</span></a></li>
+                <li><a href="tab1"><span class="tab-text">18</span></a></li>
+                <li><a href="tab1"><span class="tab-text">19</span></a></li>
+                <li><a href="tab1"><span class="tab-text">20</span></a></li>
+                <li><a href="tab1"><span class="tab-text">21</span></a></li>
+                <li><a href="tab1"><span class="tab-text">22</span></a></li>
+                <li><a href="tab1"><span class="tab-text">23</span></a></li>
+                <li><a href="tab1"><span class="tab-text">24</span></a></li>
+                <li><a href="tab1"><span class="tab-text">25</span></a></li>
+                <li><a href="tab1"><span class="tab-text">26</span></a></li>
+                <li><a href="tab1"><span class="tab-text">27</span></a></li>
+                <li><a href="tab1"><span class="tab-text">28</span></a></li>
+                <li><a href="tab1"><span class="tab-text">29</span></a></li>
+                <li><a href="tab1"><span class="tab-text">30</span></a></li>
+            </ol>
+        </div>
+        <div class="calendario" id="julio">
+            <div class="meses">
+                <a href="#" class="junio"><img src="c:\Users\Sebastian Zaracho\OneDrive\Documentos\sitio wed de CELA\desarrollo de pagina\imagenes\flecha izquierda.png" class="flechas"></a>
+                <h1>julio 2022</h1>
+                <a href="#" class="agosto"><img src="c:\Users\Sebastian Zaracho\OneDrive\Documentos\sitio wed de CELA\desarrollo de pagina\imagenes\flecha derecha.png" class="flechas"></a>
+            </div>
+            <ol class="tabs">
+                <li class="dias_semana">domingo</li>
+                <li class="dias_semana">lunes</li>
+                <li class="dias_semana">martes</li>
+                <li class="dias_semana">miercoles</li>
+                <li class="dias_semana">jueves</li>
+                <li class="dias_semana">viernes</li>
+                <li class="dias_semana">sabado</li>
+
+                <li class="inicio_mes3"><a href="tab1"><span class="tab-text">1</span></a></li>
+                <li><a href="tab1"><span class="tab-text">2</span></a></li>
+                <li><a href="tab1"><span class="tab-text">3</span></a></li>
+                <li><a href="tab1"><span class="tab-text">4</span></a></li>
+                <li><a href="tab1"><span class="tab-text">5</span></a></li>
+                <li><a href="tab1"><span class="tab-text">6</span></a></li>
+                <li><a href="tab1"><span class="tab-text">7</span></a></li>
+                <li><a href="tab1"><span class="tab-text">8</span></a></li>
+                <li><a href="tab1"><span class="tab-text">9</span></a></li>
+                <li><a href="tab1"><span class="tab-text">10</span></a></li>
+                <li><a href="tab1"><span class="tab-text">11</span></a></li>
+                <li><a href="tab1"><span class="tab-text">12</span></a></li>
+                <li><a href="tab1"><span class="tab-text">13</span></a></li>
+                <li><a href="tab1"><span class="tab-text">14</span></a></li>
+                <li><a href="tab1"><span class="tab-text">15</span></a></li>
+                <li><a href="tab1"><span class="tab-text">16</span></a></li>
+                <li><a href="tab1"><span class="tab-text">17</span></a></li>
+                <li><a href="tab1"><span class="tab-text">18</span></a></li>
+                <li><a href="tab1"><span class="tab-text">19</span></a></li>
+                <li><a href="tab1"><span class="tab-text">20</span></a></li>
+                <li><a href="tab1"><span class="tab-text">21</span></a></li>
+                <li><a href="tab1"><span class="tab-text">22</span></a></li>
+                <li><a href="tab1"><span class="tab-text">23</span></a></li>
+                <li><a href="tab1"><span class="tab-text">24</span></a></li>
+                <li><a href="tab1"><span class="tab-text">25</span></a></li>
+                <li><a href="tab1"><span class="tab-text">26</span></a></li>
+                <li><a href="tab1"><span class="tab-text">27</span></a></li>
+                <li><a href="tab1"><span class="tab-text">28</span></a></li>
+                <li><a href="tab1"><span class="tab-text">29</span></a></li>
+                <li><a href="tab1"><span class="tab-text">30</span></a></li>
+                <li><a href="tab1"><span class="tab-text">31</span></a></li>
+            </ol>
+        </div>
+        <div class="calendario" id="agosto">
+            <div class="meses">
+                <a href="#" class="julio"><img src="c:\Users\Sebastian Zaracho\OneDrive\Documentos\sitio wed de CELA\desarrollo de pagina\imagenes\flecha izquierda.png" class="flechas"></a>
+                <h1>agosto 2022</h1>
+                <a href="#" class="septiembre"><img src="c:\Users\Sebastian Zaracho\OneDrive\Documentos\sitio wed de CELA\desarrollo de pagina\imagenes\flecha derecha.png" class="flechas"></a>
+            </div>
+            <ol class="tabs">
+                <li class="dias_semana">domingo</li>
+                <li class="dias_semana">lunes</li>
+                <li class="dias_semana">martes</li>
+                <li class="dias_semana">miercoles</li>
+                <li class="dias_semana">jueves</li>
+                <li class="dias_semana">viernes</li>
+                <li class="dias_semana">sabado</li>
+                
+                <li class="inicio_mes6"><a href="tab1"><span class="tab-text">1</span></a></li>
+                <li><a href="tab1"><span class="tab-text">2</span></a></li>
+                <li><a href="tab1"><span class="tab-text">3</span></a></li>
+                <li><a href="tab1"><span class="tab-text">4</span></a></li>
+                <li><a href="tab1"><span class="tab-text">5</span></a></li>
+                <li><a href="tab1"><span class="tab-text">6</span></a></li>
+                <li><a href="tab1"><span class="tab-text">7</span></a></li>
+                <li><a href="tab1"><span class="tab-text">8</span></a></li>
+                <li><a href="tab1"><span class="tab-text">9</span></a></li>
+                <li><a href="tab1"><span class="tab-text">10</span></a></li>
+                <li><a href="tab1"><span class="tab-text">11</span></a></li>
+                <li><a href="tab1"><span class="tab-text">12</span></a></li>
+                <li><a href="tab1"><span class="tab-text">13</span></a></li>
+                <li><a href="tab1"><span class="tab-text">14</span></a></li>
+                <li><a href="tab1"><span class="tab-text">15</span></a></li>
+                <li><a href="tab1"><span class="tab-text">16</span></a></li>
+                <li><a href="tab1"><span class="tab-text">17</span></a></li>
+                <li><a href="tab1"><span class="tab-text">18</span></a></li>
+                <li><a href="tab1"><span class="tab-text">19</span></a></li>
+                <li><a href="tab1"><span class="tab-text">20</span></a></li>
+                <li><a href="tab1"><span class="tab-text">21</span></a></li>
+                <li><a href="tab1"><span class="tab-text">22</span></a></li>
+                <li><a href="tab1"><span class="tab-text">23</span></a></li>
+                <li><a href="tab1"><span class="tab-text">24</span></a></li>
+                <li><a href="tab1"><span class="tab-text">25</span></a></li>
+                <li><a href="tab1"><span class="tab-text">26</span></a></li>
+                <li><a href="tab1"><span class="tab-text">27</span></a></li>
+                <li><a href="tab1"><span class="tab-text">28</span></a></li>
+                <li><a href="tab1"><span class="tab-text">29</span></a></li>
+                <li><a href="tab1"><span class="tab-text">30</span></a></li>
+                <li><a href="tab1"><span class="tab-text">31</span></a></li>
+            </ol>
+        </div>
+        <div class="calendario" id="septiembre">
+            <div class="meses">
+                <a href="#" class="agosto"><img src="c:\Users\Sebastian Zaracho\OneDrive\Documentos\sitio wed de CELA\desarrollo de pagina\imagenes\flecha izquierda.png" class="flechas"></a>
+                <h1>septiembre 2022</h1>
+                <a href="#" class="octubre"><img src="c:\Users\Sebastian Zaracho\OneDrive\Documentos\sitio wed de CELA\desarrollo de pagina\imagenes\flecha derecha.png" class="flechas"></a>
+            </div>
+            <ol class="tabs">
+                <li class="dias_semana">domingo</li>
+                <li class="dias_semana">lunes</li>
+                <li class="dias_semana">martes</li>
+                <li class="dias_semana">miercoles</li>
+                <li class="dias_semana">jueves</li>
+                <li class="dias_semana">viernes</li>
+                <li class="dias_semana">sabado</li>
+
+                <li class="inicio_mes7"><a href="tab3"><span class="tab-text">1</span></a></li>
+                <li><a href="tab1"><span class="tab-text">2</span></a></li>
+                <li><a href="tab1"><span class="tab-text">3</span></a></li>
+                <li><a href="tab1"><span class="tab-text">4</span></a></li>
+                <li><a href="tab1"><span class="tab-text">5</span></a></li>
+                <li><a href="tab1"><span class="tab-text">6</span></a></li>
+                <li><a href="tab1"><span class="tab-text">7</span></a></li>
+                <li><a href="tab1"><span class="tab-text">8</span></a></li>
+                <li><a href="tab1"><span class="tab-text">9</span></a></li>
+                <li><a href="tab1"><span class="tab-text">10</span></a></li>
+                <li><a href="tab1"><span class="tab-text">11</span></a></li>
+                <li><a href="tab1"><span class="tab-text">12</span></a></li>
+                <li><a href="tab1"><span class="tab-text">13</span></a></li>
+                <li><a href="tab1"><span class="tab-text">14</span></a></li>
+                <li><a href="tab1"><span class="tab-text">15</span></a></li>
+                <li><a href="tab1"><span class="tab-text">16</span></a></li>
+                <li><a href="tab1"><span class="tab-text">17</span></a></li>
+                <li><a href="tab1"><span class="tab-text">18</span></a></li>
+                <li><a href="tab1"><span class="tab-text">19</span></a></li>
+                <li><a href="tab1"><span class="tab-text">20</span></a></li>
+                <li><a href="tab1"><span class="tab-text">21</span></a></li>
+                <li><a href="tab1"><span class="tab-text">22</span></a></li>
+                <li><a href="tab1"><span class="tab-text">23</span></a></li>
+                <li><a href="tab1"><span class="tab-text">24</span></a></li>
+                <li><a href="tab1"><span class="tab-text">25</span></a></li>
+                <li><a href="tab1"><span class="tab-text">26</span></a></li>
+                <li><a href="tab1"><span class="tab-text">27</span></a></li>
+                <li><a href="tab1"><span class="tab-text">28</span></a></li>
+                <li><a href="tab1"><span class="tab-text">29</span></a></li>
+                <li><a href="tab1"><span class="tab-text">30</span></a></li>
+            </ol>
+        </div>
+        <div class="calendario" id="octubre">
+            <div class="meses">
+                <a href="#" class="septiembre"><img src="c:\Users\Sebastian Zaracho\OneDrive\Documentos\sitio wed de CELA\desarrollo de pagina\imagenes\flecha izquierda.png" class="flechas"></a>
+                <h1>octubre 2022</h1>
+                <a href="#" class="noviembre"><img src="c:\Users\Sebastian Zaracho\OneDrive\Documentos\sitio wed de CELA\desarrollo de pagina\imagenes\flecha derecha.png" class="flechas"></a>
+            </div>
+            <ol class="tabs">
+                <li class="dias_semana">domingo</li>
+                <li class="dias_semana">lunes</li>
+                <li class="dias_semana">martes</li>
+                <li class="dias_semana">miercoles</li>
+                <li class="dias_semana">jueves</li>
+                <li class="dias_semana">viernes</li>
+                <li class="dias_semana">sabado</li>
+
+                <li class="inicio_mes"><a href="tab1"><span class="tab-text">1</span></a></li>
+                <li><a href="tab1"><span class="tab-text">2</span></a></li>
+                <li><a href="tab1"><span class="tab-text">3</span></a></li>
+                <li><a href="tab1"><span class="tab-text">4</span></a></li>
+                <li><a href="tab1"><span class="tab-text">5</span></a></li>
+                <li><a href="tab1"><span class="tab-text">6</span></a></li>
+                <li><a href="tab1"><span class="tab-text">7</span></a></li>
+                <li><a href="tab1"><span class="tab-text">8</span></a></li>
+                <li><a href="tab1"><span class="tab-text">9</span></a></li>
+                <li><a href="tab1"><span class="tab-text">10</span></a></li>
+                <li><a href="tab1"><span class="tab-text">11</span></a></li>
+                <li><a href="tab1"><span class="tab-text">12</span></a></li>
+                <li><a href="tab1"><span class="tab-text">13</span></a></li>
+                <li><a href="tab1"><span class="tab-text">14</span></a></li>
+                <li><a href="tab1"><span class="tab-text">15</span></a></li>
+                <li><a href="tab1"><span class="tab-text">16</span></a></li>
+                <li><a href="tab1"><span class="tab-text">17</span></a></li>
+                <li><a href="tab1"><span class="tab-text">18</span></a></li>
+                <li><a href="tab1"><span class="tab-text">19</span></a></li>
+                <li><a href="tab1"><span class="tab-text">20</span></a></li>
+                <li><a href="tab1"><span class="tab-text">21</span></a></li>
+                <li><a href="tab1"><span class="tab-text">22</span></a></li>
+                <li><a href="tab1"><span class="tab-text">23</span></a></li>
+                <li><a href="tab1"><span class="tab-text">24</span></a></li>
+                <li><a href="tab1"><span class="tab-text">25</span></a></li>
+                <li><a href="tab1"><span class="tab-text">26</span></a></li>
+                <li><a href="tab1"><span class="tab-text">27</span></a></li>
+                <li><a href="tab1"><span class="tab-text">28</span></a></li>
+                <li><a href="tab1"><span class="tab-text">29</span></a></li>
+                <li><a href="tab1"><span class="tab-text">30</span></a></li>
+                <li><a href="tab1"><span class="tab-text">31</span></a></li>
+            </ol>
+        </div>
+        <div class="calendario" id="noviembre">
+            <div class="meses">
+                <a href="#" class="octubre"><img src="c:\Users\Sebastian Zaracho\OneDrive\Documentos\sitio wed de CELA\desarrollo de pagina\imagenes\flecha izquierda.png" class="flechas"></a>
+                <h1>noviembre 2022</h1>
+                <a href="#" class="diciembre"><img src="c:\Users\Sebastian Zaracho\OneDrive\Documentos\sitio wed de CELA\desarrollo de pagina\imagenes\flecha derecha.png" class="flechas"></a>
+            </div>
+            <ol class="tabs">
+                <li class="dias_semana">domingo</li>
+                <li class="dias_semana">lunes</li>
+                <li class="dias_semana">martes</li>
+                <li class="dias_semana">miercoles</li>
+                <li class="dias_semana">jueves</li>
+                <li class="dias_semana">viernes</li>
+                <li class="dias_semana">sabado</li>
+
+                <li class="inicio_mes2"><a href="tab1"><span class="tab-text">1</span></a></li>
+                <li><a href="tab1"><span class="tab-text">2</span></a></li>
+                <li><a href="tab1"><span class="tab-text">3</span></a></li>
+                <li><a href="tab1"><span class="tab-text">4</span></a></li>
+                <li><a href="tab1"><span class="tab-text">5</span></a></li>
+                <li><a href="tab1"><span class="tab-text">6</span></a></li>
+                <li><a href="tab1"><span class="tab-text">7</span></a></li>
+                <li><a href="tab1"><span class="tab-text">8</span></a></li>
+                <li><a href="tab1"><span class="tab-text">9</span></a></li>
+                <li><a href="tab1"><span class="tab-text">10</span></a></li>
+                <li><a href="tab1"><span class="tab-text">11</span></a></li>
+                <li><a href="tab1"><span class="tab-text">12</span></a></li>
+                <li><a href="tab1"><span class="tab-text">13</span></a></li>
+                <li><a href="tab1"><span class="tab-text">14</span></a></li>
+                <li><a href="tab1"><span class="tab-text">15</span></a></li>
+                <li><a href="tab1"><span class="tab-text">16</span></a></li>
+                <li><a href="tab1"><span class="tab-text">17</span></a></li>
+                <li><a href="tab1"><span class="tab-text">18</span></a></li>
+                <li><a href="tab1"><span class="tab-text">19</span></a></li>
+                <li><a href="tab1"><span class="tab-text">20</span></a></li>
+                <li><a href="tab1"><span class="tab-text">21</span></a></li>
+                <li><a href="tab1"><span class="tab-text">22</span></a></li>
+                <li><a href="tab1"><span class="tab-text">23</span></a></li>
+                <li><a href="tab1"><span class="tab-text">24</span></a></li>
+                <li><a href="tab1"><span class="tab-text">25</span></a></li>
+                <li><a href="tab1"><span class="tab-text">26</span></a></li>
+                <li><a href="tab1"><span class="tab-text">27</span></a></li>
+                <li><a href="tab1"><span class="tab-text">28</span></a></li>
+                <li><a href="tab1"><span class="tab-text">29</span></a></li>
+                <li><a href="tab1"><span class="tab-text">30</span></a></li>
+            </ol>
+        </div>
+        <div class="calendario" id="diciembre">
+            <div class="meses">
+                <a href="#" class="noviembre"><img src="c:\Users\Sebastian Zaracho\OneDrive\Documentos\sitio wed de CELA\desarrollo de pagina\imagenes\flecha izquierda.png" class="flechas"></a>
+                <h1>diciembre 2022</h1>
+                <a href="#" class="enero"><img src="c:\Users\Sebastian Zaracho\OneDrive\Documentos\sitio wed de CELA\desarrollo de pagina\imagenes\flecha derecha.png" class="flechas"></a>
+            </div>
+            <ol class="tabs">
+                <li class="dias_semana">domingo</li>
+                <li class="dias_semana">lunes</li>
+                <li class="dias_semana">martes</li>
+                <li class="dias_semana">miercoles</li>
+                <li class="dias_semana">jueves</li>
+                <li class="dias_semana">viernes</li>
+                <li class="dias_semana">sabado</li>
+
+                <li class="inicio_mes7"><a href="tab1"><span class="tab-text">1</span></a></li>
+                <li><a href="tab2"><span class="tab-text">2</span></a></li>
+                <li><a href="tab1"><span class="tab-text">3</span></a></li>
+                <li><a href="tab1"><span class="tab-text">4</span></a></li>
+                <li><a href="tab1"><span class="tab-text">5</span></a></li>
+                <li><a href="tab1"><span class="tab-text">6</span></a></li>
+                <li><a href="tab1"><span class="tab-text">7</span></a></li>
+                <li><a href="tab1"><span class="tab-text">8</span></a></li>
+                <li><a href="tab1"><span class="tab-text">9</span></a></li>
+                <li><a href="tab1"><span class="tab-text">10</span></a></li>
+                <li><a href="tab1"><span class="tab-text">11</span></a></li>
+                <li><a href="tab1"><span class="tab-text">12</span></a></li>
+                <li><a href="tab1"><span class="tab-text">13</span></a></li>
+                <li><a href="tab1"><span class="tab-text">14</span></a></li>
+                <li><a href="tab1"><span class="tab-text">15</span></a></li>
+                <li><a href="tab1"><span class="tab-text">16</span></a></li>
+                <li><a href="tab1"><span class="tab-text">17</span></a></li>
+                <li><a href="tab1"><span class="tab-text">18</span></a></li>
+                <li><a href="tab1"><span class="tab-text">19</span></a></li>
+                <li><a href="tab1"><span class="tab-text">20</span></a></li>
+                <li><a href="tab1"><span class="tab-text">21</span></a></li>
+                <li><a href="tab1"><span class="tab-text">22</span></a></li>
+                <li><a href="tab1"><span class="tab-text">23</span></a></li>
+                <li><a href="#tab3" class="nav"><span class="tab-text">24</span></a></li>
+                <li><a href="#tab2" class="xd"><span class="tab-text">25</span></a></li>
+                <li><a href="tab1"><span class="tab-text">26</span></a></li>
+                <li><a href="tab1"><span class="tab-text">27</span></a></li>
+                <li><a href="tab1"><span class="tab-text">28</span></a></li>
+                <li><a href="tab1"><span class="tab-text">29</span></a></li>
+                <li><a href="tab1"><span class="tab-text">30</span></a></li>
+                <li><a href="tab1"><span class="tab-text">31</span></a></li>
+            </ol>
+        </div>
+
+
+        <div class="contenido">
+            <article id="tab1" class="secciones">
+                <h2>introduccion</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem dolore magni rerum laboriosam ipsum odit maxime similique aliquam reiciendis totam dicta sequi commodi consectetur tempore, maiores aut voluptatibus quasi quia.</p>
+            </article>
+            <article id="tab2" class="secciones">
+                <h2>dia del perro</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum esse excepturi voluptatibus est ex nam vitae delectus soluta eligendi dolores nesciunt iusto at non corporis debitis temporibus voluptate aut cum obcaecati ut sequi, repudiandae accusantium? Et necessitatibus velit explicabo accusamus?</p>
+                <img src="#" class="info">
+            </article>
+            <article id="tab3" class="secciones">
+                <h2>dia x</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga porro dolore quisquam ullam! Voluptatibus nihil tempore quam obcaecati facere facilis sed ab aperiam nisi quas, officiis optio quisquam, eos alias?</p>
+            </article>
+        </div>
+    </div>
+</body>
+</html>
